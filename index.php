@@ -16,7 +16,15 @@
 	</head>
 	
 	<body>
-	
+		<h1>Testando funcionalidades no PHP</h1>
+		<h2>Uso de tags</h2>
+		<h3>Headings</h3>
+		O uso das headings é semelhante ao HTML. As tags vão do h1 ao h6.
+		
+		<h3>Texto</h3>
+		O texto pode ir diretamente no body, sem a necessidade de uma tag como a <<p>> por exemplo.  
+		
+		</br>
 		<?php
 			for ( $i = 0 ; $i < 10 ; $i++) {
 				print("<span class=\"linha\">Linha número " . $i . "</span><br />");
